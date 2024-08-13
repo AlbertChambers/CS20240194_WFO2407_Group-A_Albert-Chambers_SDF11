@@ -27,9 +27,9 @@
     </head>
 
     <body class="bg-gray-200">
-        <div>
+        <div class="">
             <!-- Component 1 -->
-            <div class="mx-auto bg-white">
+            <div class="px-8 mx-auto bg-white">
                 <!-- Main container with navigation and header content -->
                 <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
                     <div class="px-4">
@@ -84,7 +84,7 @@
                 </div>
             </div>
             <!-- Component 2 -->
-            <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5" id="product">
+            <section class="grid w-full grid-cols-1 px-12 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5" id="product">
                 <!-- Wide full-width container for additional content -->
                  <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
                     <h1 class="font-extrabold leading-tight mb-8text-4xl lg:text-6xl text-dark-gray-800">
@@ -107,7 +107,7 @@
                  </div>
             </section>
             <!-- Endorsements-->
-            <section class="w-full ">
+            <section class="w-full">
                 <div class="container flex flex-col items-center gap-6 mx-auto my-40">
                     <p class="mb-8 text-2xl font-semibold text-center text-dark-grey-600">
                         Endorsed by Global Companies Like
@@ -145,7 +145,7 @@
                  <!-- Component 3: Card-->
                 <div class="grid gap-8 mt-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <!-- Card 1-->
-                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 rounded-3xl shadow-main hover:bg-pink-400">
+                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-pink-400">
                         <div class="flex justify-center w-16 h-16 bg-green-400 item-center rounded-2xl">
                             <img src="./assets/component-3/feature-icons/community-networking-opps.svg"/>
                         </div>
@@ -159,7 +159,7 @@
                         </div>
                     </div>
                     <!-- Card 2-->
-                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 rounded-3xl shadow-main hover:bg-pink-400">
+                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-pink-400">
                         <div class="flex justify-center w-16 h-16 bg-green-400 item-center rounded-2xl">
                             <img src="./assets/component-3/feature-icons/developer-focused-accounts.svg"/>
                         </div>
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                     <!-- Card 3-->
-                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 rounded-3xl shadow-main hover:bg-pink-400">
+                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-pink-400">
                         <div class="flex justify-center w-16 h-16 bg-green-400 item-center rounded-2xl">
                             <img src="./assets/component-3/feature-icons/high-level-security.svg"/>
                         </div>
@@ -187,7 +187,7 @@
                         </div>
                     </div>
                     <!-- Card 4-->
-                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 rounded-3xl shadow-main hover:bg-green-400">
+                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-green-400">
                         <div class="flex justify-center w-16 h-16 bg-pink-400 item-center rounded-2xl">
                             <img src="./assets/component-3/feature-icons/innovative-financial-tools.svg"/>
                         </div>
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                     <!-- Card 5-->
-                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 rounded-3xl shadow-main hover:bg-green-400">
+                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-green-400">
                         <div class="flex justify-center w-16 h-16 bg-pink-400 item-center rounded-2xl">
                             <img src="./assets/component-3/feature-icons/tech-savvy-customer.svg"/>
                         </div>
@@ -215,7 +215,7 @@
                         </div>
                     </div>
                     <!-- Card 6-->
-                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 rounded-3xl shadow-main hover:bg-green-400" >
+                    <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-green-400" >
                         <div class="flex justify-center w-16 h-16 bg-pink-400 item-center rounded-2xl">
                             <img src="./assets/component-3/feature-icons/advanced-online-banking.svg"/>
                         </div>
@@ -376,13 +376,91 @@
                 </div>
             </div>
             <!-- Contact (Component 5) -->
+            <!-- Wide full-width container for additional content -->
             <div class="w-full" id="contact">
-                <!-- Wide full-width container for additional content -->
+                <!-- Grid Container-->
+                <div class="container flex flex-col items-center gap-16 mx-auto mb-24">
+                    <!-- Card List -->
+                    <div class="grid w-full grid-cols-1 gap-6 lg:grid-cols-3">
+                        <!-- Card 1-->
+                        <div class="flex flex-col items-center gap-4 px-6 py-8 bg-white cursor-pointer rounded-3xl shadow-main">
+                            <span>
+                                <img src="./assets/component-5/contact-icons/green-email.svg"/>
+                            </span>
+                            <p class="text-2xl font-extrabold text-dark-grey-800">
+                                E-Mail
+                            </p>
+                            <p class="text-base lead-7 text-dark-grey-500">
+                                Contact Us At
+                            </p>
+                            <p class="text-lg font-bold text-green-400"
+                            href="mailto:hello@loople.com">
+                                hi@cachebank.com
+                            </p>
+                        </div>
+                        <!-- Card 2-->
+                        <div class="flex flex-col items-center gap-4 px-6 py-8 bg-white cursor-pointer rounded-3xl shadow-main">
+                            <span>
+                                <img src="./assets/component-5/contact-icons/green-phone.svg"/>
+                            </span>
+                            <p class="text-2xl font-extrabold text-dark-grey-800">
+                                Phone
+                            </p>
+                            <p class="text-base lead-7 text-dark-grey-500">
+                                Reach out to us via phone
+                            </p>
+                            <p class="text-lg font-bold text-green-400"
+                            href="tel:+215-486-5135">
+                                +215-486-5135
+                            </p>
+                        </div>
+                        <!-- Card 3-->
+                        <div class="flex flex-col items-center gap-4 px-6 py-8 bg-white cursor-pointer rounded-3xl shadow-main">
+                            <span>
+                                <img src="./assets/component-5/contact-icons/green-location-pin.svg"/>
+                            </span>
+                            <p class="text-2xl font-extrabold text-dark-grey-800">
+                                Location
+                            </p>
+                            <p class="text-base lead-7 text-dark-grey-500">
+                                Find us at our office
+                            </p>
+                            <a class="text-lg font-bold text-green-400"
+                            href="https://goo.gl/maps/QcWzYETAh4FS3KTD7"
+                            target="_blank">
+                                15 Tech Alley, Cape Town
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Footer (Component 5)-->
         <div class="w-full bg-green-500">
             <!-- Full-width footer container with green background -->
+             <div class="container flex flex-col mx-auto">
+                <div class="flex flex-col items-center gap-6 mb-6">
+                    <!-- Socials (hover:fill doesn't work on embed img tag)-->
+                    <div class="flex items-center gap-6 pt-6">
+                        <img class="cursor-pointer"
+                        src="./assets/component-5/footer-icons/facebook.svg"/>
+                        <img class="cursor-pointer"
+                        src="./assets/component-5/footer-icons/github.svg"/>
+                        <img class="cursor-pointer"
+                        src="./assets/component-5/footer-icons/insta.svg"/>
+                        <img class="cursor-pointer"
+                        src="./assets/component-5/footer-icons/linkedin.svg"/>
+                        <img class="cursor-pointer"
+                        src="./assets/component-5/footer-icons/twitter-x.svg"/>
+                    </div>
+                    <!-- Copyright -->
+                    <div class="flex items-center">
+                        <p class="text-base">
+                            2024 Cache Bank. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+             </div>
         </div>
         <script>
             document.getElementById("mobile-menu-toggle").addEventListener("click", function() {
