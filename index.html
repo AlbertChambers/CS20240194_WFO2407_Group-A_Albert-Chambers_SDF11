@@ -25,15 +25,14 @@
             }
         </script>
     </head>
-
     <body class="bg-gray-200">
-        <div class="">
+        <header class=""><h1></h1>
             <!-- Component 1 -->
-            <div class="px-8 mx-auto bg-white">
+            <nav class="px-8 mx-auto bg-white">
                 <!-- Main container with navigation and header content -->
                 <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
                     <div class="px-4">
-                        <img class="h-8" src="./assets/component-1/navigation/cache-bank-logo.png"/>
+                        <img alt="Cache Bank Logo" class="h-8" src="./assets/component-1/navigation/cache-bank-logo.png"/>
                     </div>
                     <div class="items-center justify-between hidden gap-12 text-black md:flex">
                         <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#product">Product</a>
@@ -82,7 +81,7 @@
                         <button class="px-2 py-1 text-sm font-bold bg-green-400 rounded text-blue hover:bg-pink-400">Sign Up</button>
                     </div>
                 </div>
-            </div>
+            </nav>
             <!-- Component 2 -->
             <section class="grid w-full grid-cols-1 px-12 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5" id="product">
                 <!-- Wide full-width container for additional content -->
@@ -106,6 +105,8 @@
                     <img class="w-4/5 rounded-md" src="./assets/component-2/hero-image.png" alt="header image">
                  </div>
             </section>
+        </header>
+        <main>
             <!-- Endorsements-->
             <section class="w-full">
                 <div class="container flex flex-col items-center gap-6 mx-auto my-40">
@@ -132,18 +133,18 @@
                 </div>
             </section>
             <!-- Component 3: Features -->
-            <div class="container flex flex-col items-center justify-center py-8 mx-auto" id="features">
+            <section class="container flex flex-col items-center justify-center py-8 mx-auto" id="features">
                 <!-- Centered container for more content -->
-                <div class="flex flex-col items-center justify-center mt-10">
+                <section class="flex flex-col items-center justify-center mt-10">
                     <h2 class="mb-4 text-3xl font-extrabold text-center lg:text-4xl text-dark-grey-800">
                         Elevate Your Banking with Cache
                     </h2>
                     <p class="text-lg text-center lg:w-7/12 text-grey-600 text-wrap">
                         We merge cutting-edge banking with a deep understanding of software developers' needs. Experience tailored financial solutions, advance security and tech-focused support designed just for you.
                     </p>
-                </div>
+                </section>
                  <!-- Component 3: Card-->
-                <div class="grid gap-8 mt-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <section class="grid gap-8 mt-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <!-- Card 1-->
                     <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-pink-400">
                         <div class="flex justify-center w-16 h-16 bg-green-400 item-center rounded-2xl">
@@ -175,7 +176,7 @@
                     <!-- Card 3-->
                     <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-pink-400">
                         <div class="flex justify-center w-16 h-16 bg-green-400 item-center rounded-2xl">
-                            <img src="./assets/component-3/feature-icons/high-level-security.svg"/>
+                            <img alt="2 people chatting" src="./assets/component-3/feature-icons/high-level-security.svg"/>
                         </div>
                         <div class="flex flex-col gap-2 px-6 text center">
                             <h3 class="text-2xl font-extrabold text-gray-800">
@@ -189,7 +190,7 @@
                     <!-- Card 4-->
                     <div class="flex flex-col items-center gap-6 px-4 py-4 transition duration-300 cursor-pointer rounded-3xl shadow-main hover:bg-green-400">
                         <div class="flex justify-center w-16 h-16 bg-pink-400 item-center rounded-2xl">
-                            <img src="./assets/component-3/feature-icons/innovative-financial-tools.svg"/>
+                            <img alt="four Square blocks" src="./assets/component-3/feature-icons/innovative-financial-tools.svg"/>
                         </div>
                         <div class="flex flex-col gap-2 px-6 text center">
                             <h3 class="text-2xl font-extrabold text-gray-800">
@@ -228,10 +229,10 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
+                </section>
+            </section>
             <!-- Component 4: Stats -->
-            <div class="w-full" id="pricing">
+            <section class="w-full" id="pricing">
                 <!-- Wide full-width container for additional content -->
                  <div class="container flex flex-col items-center gap-16 mx-auto my-32">
                     <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8">
@@ -278,9 +279,9 @@
                         </div>
                     </div>
                  </div>
-            </div>
+            </section>
             <!-- Getting Started -->
-            <div class="w-full">
+            <section class="w-full">
                 <div class="container flex flex-col items-center gap-16 mx-auto my-32">
                     <div class="grid w-full grid-cols-1 gap-32 lg:grid-cols-2">
                         <div class="hidden bg-center bg-cover lg:block rounded-3xl"
@@ -374,10 +375,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Contact (Component 5) -->
             <!-- Wide full-width container for additional content -->
-            <div class="w-full" id="contact">
+            <section class="w-full" id="contact">
                 <!-- Grid Container-->
                 <div class="container flex flex-col items-center gap-16 mx-auto mb-24">
                     <!-- Card List -->
@@ -433,15 +434,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
         <!-- Footer (Component 5)-->
-        <div class="w-full bg-green-500">
+        <footer class="w-full bg-green-500">
             <!-- Full-width footer container with green background -->
              <div class="container flex flex-col mx-auto">
                 <div class="flex flex-col items-center gap-6 mb-6">
                     <!-- Socials (hover:fill doesn't work on embed img tag)-->
-                    <div class="flex items-center gap-6 pt-6">
+                    <section class="flex items-center gap-6 pt-6">
                         <img class="cursor-pointer"
                         src="./assets/component-5/footer-icons/facebook.svg"/>
                         <img class="cursor-pointer"
@@ -452,16 +453,16 @@
                         src="./assets/component-5/footer-icons/linkedin.svg"/>
                         <img class="cursor-pointer"
                         src="./assets/component-5/footer-icons/twitter-x.svg"/>
-                    </div>
+                    </section>
                     <!-- Copyright -->
-                    <div class="flex items-center">
+                    <section class="flex items-center">
                         <p class="text-base">
                             2024 Cache Bank. All rights reserved.
                         </p>
-                    </div>
+                    </section>
                 </div>
              </div>
-        </div>
+        </footer>
         <script>
             document.getElementById("mobile-menu-toggle").addEventListener("click", function() {
                 document.getElementById("mobile-menu").classList.toggle("hidden")
